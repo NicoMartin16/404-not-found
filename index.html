@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <div class="container-title">
+        <p>404 NOT FOUND</p>
+      </div>
+      <div class="container-img">
+        <img src="./assets/img/Scarecrow.png" alt="imagen de espantapajaros" />
+      </div>
+      <div class="container-info">
+        <p class="title-not-found">I have bad news for you</p>
+        <p class="text-not-found">
+          The page you are looking for might be removed or is temporarily
+          unavailable
+        </p>
+        <button class="button-action">BACK TO HOMEPAGE</button>
+      </div>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
